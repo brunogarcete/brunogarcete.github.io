@@ -29,7 +29,6 @@ nav {
     padding: 0;
 }
 
-/* */
 .nav-links li a {
     color: white;
     text-decoration: none;
@@ -38,5 +37,12 @@ nav {
 }
 
 .nav-links li a:hover {
-    color: #ff6347; /* Color al pasar el mouse */
+    color: #ff6347;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
 }
