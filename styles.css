@@ -1,6 +1,12 @@
+html, body {
+	height: 100%;
+	mairgin: 0;
+}
+
 body {
-    margin: 0;
-    font-family: Arial, sans-serif
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
 }
 
 /* Barra de navegacion */
