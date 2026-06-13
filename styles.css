@@ -7,11 +7,13 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, sans-serif;
+    background-image: url("imagenes/jose-ibarra.jpg");
+
 }
 
 /* Barra de navegacion */
 nav {
-    background-color: #000000;
+    background-color: #d7c6ac1c;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -60,12 +62,41 @@ nav {
     min-height: 80vh;
 }
 
-
-/* Footer */
-footer {
-    background-color: #000000;
+.plan {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-collapse: separate;
+    border-spacing: 100px 5px;
+    background-color: #d7c6ac1c;
     color: white;
-    text-align: center;
+}
+
+#contacto {
+    display: grid;
+    align-content: center;
+    grid-auto-flow: row;
+}
+
+#nombre {
+    margin-bottom: 6 px;
+}
+
+.texto {
+    color: #413908;
+}
+
+button {
+    border-radius: 9px;
+    margin-left: 6px;
+    margin-top: 11px;
+}
+
+
+footer {
+    background-color: #d7c6ac1c;
+    color: white;
+    /*text-align: center;*/
     padding: 10px 0;
     margin-top: auto;
     position: static;
